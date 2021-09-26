@@ -5,17 +5,21 @@ import { faDollarSign, faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 const Cart = (props) => {
+    // Data
     const { cart } = props
+    // Cart Updating Part
     let totalQuantity = 0;
     let total = 0;
     for (const speaker of cart) {
         total = total + speaker.salary
         totalQuantity = totalQuantity + 1
     }
+    // Icons
     const speakerAdded = <FontAwesomeIcon icon={faUser} />
     const dollar = <FontAwesomeIcon icon={faDollarSign} />
     return (
         <div>
+            {/* Speaker Cart */}
             <div className="cart-summary">
                 <h3>{speakerAdded} Speaker Added: {totalQuantity}</h3>
                 <h5>Total Cost: {dollar}{total}</h5>
