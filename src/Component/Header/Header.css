@@ -1,0 +1,22 @@
+.header{
+    background-color: rgba(240, 240, 240, 0.774);
+    height: 200px;  
+}
+.welcome-text{  
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 50px;
+}
+.company-name{
+    color: rgb(255, 187, 0);
+}
+.motto{
+    text-align: center;
+}
+.budget{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 40px;
+}
