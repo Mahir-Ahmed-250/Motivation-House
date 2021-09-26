@@ -25,12 +25,15 @@ const Cart = (props) => {
                             <img className='cart-img' src={cart.img} alt="" />
                             <div>
                                 <h6>Name: {cart.name}</h6>
-                                <p>Salary: {cart.salary}</p>
+                                <p>Salary: ${cart.salary}</p>
                             </div>
                         </div>
-                    </div>)
-                }
 
+                    </div>
+                    )
+
+                }
+                <button type="button" className="btn btn-secondary">Book Now!</button>
             </div>
         </div>
     );

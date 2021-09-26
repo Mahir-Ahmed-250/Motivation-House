@@ -6,6 +6,7 @@
         "nationality": "Bangladeshi",
         "birthplace": "Brahmanbaria",
         "salary": 150000,
+        "rating": 5,
         "img": "./images/solaiman.jpg"
     },
     {
@@ -15,6 +16,7 @@
         "nationality": "Bangladeshi",
         "birthplace": "Comilla",
         "salary": 20000,
+        "rating": 5,
         "img": "./images/ayman.jpg"
     },
     {
@@ -24,6 +26,7 @@
         "nationality": "Bangladeshi",
         "birthplace": "Habiganj",
         "salary": 30000,
+        "rating": 4,
         "img": "./images/sumon.jpg"
     },
     {
@@ -33,6 +36,7 @@
         "nationality": "American",
         "birthplace": "Antioch, Tennessee",
         "salary": 30000,
+        "rating": 4,
         "img": "https://virtualspeech.com/img/motivational-speakers/Dave-Ramsey.jpg"
     },
     {
@@ -42,6 +46,7 @@
         "nationality": "American",
         "birthplace": "Los Angeles",
         "salary": 60000,
+        "rating": 3,
         "img": "https://virtualspeech.com/img/motivational-speakers/tony-robbins.jpg"
     },
     {
@@ -51,6 +56,7 @@
         "nationality": "Australian",
         "birthplace": "Melbourne",
         "salary": 70000,
+        "rating": 5,
         "img": "https://virtualspeech.com/img/motivational-speakers/nick-vujicic.jpg"
     },
     {
@@ -60,6 +66,7 @@
         "nationality": "German",
         "birthplace": "Lünen",
         "salary": 20000,
+        "rating": 2,
         "img": "https://virtualspeech.com/img/motivational-speakers/Eckhart-Tolle.jpg"
     },
     {
@@ -69,6 +76,7 @@
         "nationality": "American",
         "birthplace": "Louisiana",
         "salary": 50000,
+        "rating": 3,
         "img": "https://virtualspeech.com/img/motivational-speakers/chris-gardner.jpg"
     },
     {
@@ -78,6 +86,7 @@
         "nationality": "American",
         "birthplace": "Hilo, Hawaii",
         "salary": 35000,
+        "rating": 4,
         "img": "https://virtualspeech.com/img/motivational-speakers/Robert-Kiyosaki.jpg"
     },
     {
@@ -87,6 +96,7 @@
         "nationality": "American",
         "birthplace": "Chicago",
         "salary": 15000,
+        "rating": 3,
         "img": "https://virtualspeech.com/img/motivational-speakers/eric-thomas.jpg"
     },
     {
@@ -94,8 +104,9 @@
         "name": "Les Brown",
         "age": 76,
         "nationality": "American",
-        "birthplace": "Brahmanbaria",
+        "birthplace": "New York City",
         "salary": 23000,
+        "rating": 5,
         "img": "https://virtualspeech.com/img/motivational-speakers/les-brown2.jpg"
     },
     {
@@ -105,6 +116,7 @@
         "nationality": "American",
         "birthplace": "Texas",
         "salary": 30000,
+        "rating": 3,
         "img": "https://virtualspeech.com/img/motivational-speakers/Jack-Canfield.jpg"
     },
     {
@@ -114,6 +126,7 @@
         "nationality": "Canadian",
         "birthplace": "Toronto",
         "salary": 35000,
+        "rating": 4,
         "img": "https://virtualspeech.com/img/motivational-speakers/t-harv-eker.jpg"
     },
     {
@@ -123,6 +136,7 @@
         "nationality": "American",
         "birthplace": "Florida",
         "salary": 75000,
+        "rating": 5,
         "img": "https://virtualspeech.com/img/motivational-speakers/Darren-Hardy.jpg"
     },
     {
@@ -132,6 +146,7 @@
         "nationality": "American",
         "birthplace": "New York City",
         "salary": 83000,
+        "rating": 5,
         "img": "https://virtualspeech.com/img/motivational-speakers/Iyanla-Vanzant.jpg"
     }
 ]

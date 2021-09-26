@@ -1,0 +1,36 @@
+.card-body{
+    background-color: rgb(238, 238, 238);
+}
+.card:hover{
+    transform: translateY(0) scale(1.03);
+    cursor: pointer;  
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.name{
+    color: rgb(8, 24, 255);
+    font-weight: 600;
+    font-family:cursive;
+    font-size: 25px;
+}
+.star{
+    color: orange;
+    font-size: 20px;
+}
+.rating{
+    color: black;
+}
+.fb{
+    font-size: 30px;
+   
+}
+.yt{
+    margin-left: 20px;
+    font-size: 30px;
+    color: red;
+}
+.yt:hover{
+    color: red;
+}

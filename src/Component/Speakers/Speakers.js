@@ -4,6 +4,7 @@ import Speaker from '../Speaker/Speaker';
 import './Speakers.css'
 
 const Speakers = () => {
+    // States
     const [speakers, setSpeaker] = useState([]);
     const [cart, setCart] = useState([]);
     useEffect(() => {
@@ -11,10 +12,11 @@ const Speakers = () => {
             .then(res => res.json())
             .then(data => setSpeaker(data))
     }, []);
-    const handleAddToCart = (speaker) => {
+    // Event Handler
+    const addToCart = (speaker) => {
         const added = cart.find(addedName => addedName.name === speaker.name);
         if (added) {
-            alert("You Already Take Him in your Team!");
+            alert("Already Selected!");
         }
         else {
             const newCart = [...cart, speaker];
@@ -23,12 +25,13 @@ const Speakers = () => {
     };
     return (
         <>
+            {/* Speakers & Cart */}
             <div className='container mt-5'>
                 <div className="row">
                     <div className='col-9 speakers'>
                         {
                             speakers.map(speaker => <Speaker key={speaker.id} speaker={speaker}
-                                handleAddToCart={handleAddToCart}></Speaker>)
+                                addToCart={addToCart}></Speaker>)
                         }
                     </div>
                     <div className='col-3 cart'>
